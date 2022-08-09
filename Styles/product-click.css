@@ -1,0 +1,604 @@
+html {
+    width: 1106px;
+    margin: 2px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+
+#sc1 {
+
+    width: 32px;
+    height: 30px;
+}
+
+.logo-name {
+    width: 143px;
+    height: 31px;
+
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+}
+
+#user {
+    width: 22px;
+    height: 22px;
+}
+
+#sc2 {
+    width: 25px;
+    height: 21px;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.main-nav a {
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+.main-pic{
+    position: absolute;
+        width: 530px;
+        height: 545px;
+        left: 42px;
+        top: 180px;
+    
+        background: #C4C4C4;
+}
+.mini-pic-cont{
+    display: flex;
+}
+.mini-pic-cont >*{
+    margin: 10px;
+}
+.mini-pic{
+    position: relative;
+        width: 109px;
+        height: 103px;
+        left: 25px;
+        top: 590px;
+    
+        background: #C4C4C4;
+
+}
+.desc{
+    position: absolute;
+        width: 499px;
+        height: 87px;
+        left: 607px;
+        top: 180px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.more-infoo{
+    display: flex;
+    position: relative;
+    left: 586px;
+    top: -20px;
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.more-infoo >*{
+    margin: 10px;
+}
+.prices{
+    position: absolute;
+        width: 358px;
+        height: 37px;
+        left: 603px;
+        top: 320px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 37px;
+    
+        color: #000000;
+}
+.col{
+    position: absolute;
+        width: 79px;
+        height: 28px;
+        left: 603px;
+        top: 400px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.col-cont{
+    display: flex;
+}
+.col-cont >*{
+    margin: 10px;
+}
+.colours{
+    position: relative;
+        width: 45px;
+        height: 45px;
+        left: 580px;
+        top: 120px;
+}
+.c1{
+    background: #F51818;
+
+}
+.c2{
+    background: #5caddc;
+
+}
+.c3{
+    background: #ec5cd9;
+}
+.c4{
+    background: #d8f147;
+
+}
+.c5{
+    background: #100f0f;
+}
+.sizes{
+    position: absolute;
+        width: 60px;
+        height: 28px;
+        left: 603px;
+        top: 520px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.sizes-cont{
+    display: flex;
+}
+.sizes-cont>*{
+    margin: 10px;
+}
+.size{
+    position: relative;
+        width: 60px;
+        height: 60px;
+        left: 580px;
+        top: 179px;
+        background: #C4C4C4;
+}
+.quantity{
+    position: absolute;
+        width: 102px;
+        height: 28px;
+        left: 600px;
+        top: 672px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+#quantity{
+    position: absolute;
+        width: 209px;
+        height: 40px;
+        left: 597px;
+        top: 720px;
+    
+        background: #C4C4C4;
+}
+.ship{
+    position: absolute;
+        width: 301px;
+        height: 37px;
+        left: 597px;
+        top: 800px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 37px;
+    
+        color: #000000;
+}
+.icons{
+    display: flex;
+    position: relative;
+    left: 567px;
+    top: 409px;
+}
+.icons>*{
+    margin: 10px;
+}
+
+.button1{
+        width: 151px;
+        height: 56px;
+        background: #53BFF5;
+        border-radius: 20px;
+        border: none;
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+        
+            color: #FFFFFF;
+
+}
+.button2{
+        width: 151px;
+        height: 56px;
+        border: none;
+    
+        background: #75D1FF;
+        border-radius: 20px;
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+        
+            color: #FFFFFF;
+}
+.fa-solid{
+    font-size: 45px;
+    color: #5caddc;
+
+}
+.wishcont{
+    display: flex;
+    align-items: center;
+}
+.wishcont>*{
+    margin: 10px;
+}
+.wish-count{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 31px;
+        color: #000000;
+}
+.moree{
+    position: absolute;
+        width: 447px;
+        height: 59px;
+        left: 12px;
+        top: 1000px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 79px;
+        text-align: center;
+    
+        color: #000000;
+}
+.container {
+    display: flex;
+    position: relative;
+    left: 26px;
+    top: 546px;
+    overflow: hidden;
+}
+
+.product-img {
+    width: 145px;
+    height: 202px;
+
+    background: #EBF7FA;
+    border-radius: 20px;
+}
+
+.container>* {
+    margin: 5px;
+}
+
+.product-name {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 4px;
+    color: #000000;
+}
+
+.product-price {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin: 4px;
+    color: #000000;
+}
+.reviews{
+    position: absolute;
+        width: 262px;
+        height: 59px;
+        left: 42px;
+        top: 1423px;
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 59px;
+        text-align: center;
+    
+        color: #000000;
+}
+.customer-rev{
+    position: relative;
+        width: 1106px;
+        height: 190px;
+        left: -30px;
+        top: 670px;
+    
+        background: #F0FAF4;
+}
+.customer-rev>*{
+    margin: 5%;
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        position: relative;
+        top: 30px;
+    
+        color: #000000;
+}
+.crws >*{
+    margin: 2%;
+
+}
+.main-footer {
+    position: absolute;
+    width: 1106px;
+    height: 332px;
+    left: 0px;
+    top: 2385px;
+    overflow: hidden;
+
+    background: #C6F5DE;
+    display: flex;
+
+}
+
+.logoname {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 69px;
+
+    color: #000000;
+}
+
+.footer-cart {
+    width: 51px;
+    height: 50px;
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.info {
+    position: absolute;
+    width: 326px;
+    height: 161px;
+    left: 25px;
+    top: 82px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #949191;
+}
+
+.contact-us {
+    position: absolute;
+    width: 172px;
+    height: 38px;
+    left: 467px;
+    top: 48px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.number {
+    position: absolute;
+    width: 437px;
+    height: 141px;
+    left: 467px;
+    top: 117px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.waromaemail {
+    position: absolute;
+    width: 283px;
+    height: 35px;
+    left: 467px;
+    top: 177px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.location {
+    position: absolute;
+    width: 307px;
+    height: 102px;
+    left: 467px;
+    top: 236px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.About {
+    position: absolute;
+    width: 355px;
+    height: 93px;
+    left: 900px;
+    top: 48px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.faq {
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 900px;
+    top: 117px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.support {
+    position: absolute;
+    width: 86px;
+    height: 26px;
+    left: 900px;
+    top: 177px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+
+    color: #000000;
+}
+
+.pp {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 900px;
+    top: 236px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+
+    color: #000000;
+}
+
+

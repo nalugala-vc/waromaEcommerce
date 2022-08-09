@@ -1,0 +1,184 @@
+.logo-div {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 100%px;
+
+    background: #53BFF5;
+}
+
+.waroma {
+    
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.reglogo {
+    width: 52px;
+    height: 57px;
+    position: relative;
+    left: 20px;
+}
+.muconny{
+    display: flex;
+}
+.myform {
+    display: block;
+}
+
+.myform>* {
+    margin: 2%;
+    border: none;
+}
+
+.input {
+    width: 453px;
+    height: 41px;
+
+    background: #C5F0FA;
+    border-radius: 20px;
+}
+
+.reg {
+    font-family: 'Lucida Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.button {
+    width: 100px;
+    height: 42px;
+    background: #53BFF5;
+    border-radius: 20px;
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+.registerr{
+    margin-left: 5%;
+}
+.main-footer {
+    overflow: hidden;
+    margin-top: 2%;
+    background: #53BFF5;
+    display: flex;
+}
+.mylognm{
+    font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+        color: #FFFFFF;
+
+}
+.mylogg{
+    display: flex;
+    margin: auto;
+}
+html,
+body {
+    height: 100%;
+}
+.mycontain {
+    min-height: 100%;
+}
+
+.main {
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+.main-footerr{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .logo-div{
+        display: none;
+    }
+    .registerr{
+        margin: auto;
+    }
+    .input{
+        width: 300px;
+    }
+    .reg{
+        font-size: 30px;
+    }
+            .logoname {
+            font-size: 18px;
+        }
+        
+        .footer-cart {
+            width: 11px;
+            height: 10px;
+        }
+        
+        .info {
+            font-size: 10px;
+            width: 150px;
+            line-height: 10px;
+        }
+        
+        .contact-us,
+        .About {
+            font-size: 12px;
+        }
+        
+        .contacts>* {
+            margin: 4px;
+        }
+        
+        .waromaemail,
+        .contact-us,
+        .number {
+            width: 70px;
+        }
+        
+        .number,
+        .waromaemail,
+        .location,
+        .faq,
+        .about,
+        .support,
+        .pp {
+            font-size: 8px;
+        }
+        
+        .location {
+            width: 100px;
+        }
+        
+        .about>* {
+            margin-left: 6px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+        
+        .main-footer {
+            height: 120px;
+            margin: auto;
+        }
+        .main-footerr{
+            display: contents;
+        }
+}

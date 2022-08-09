@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+td img{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    /*border: 5px solid #2194b8;*/
+}
+th,td{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px,20px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.ogg{
+    display: flex;
+    justify-content: center;
+}
+td{
+    height: 50px;
+}
+.button {
+    width: 130px;
+    height: 42px;
+    background: #53BFF5;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+tr:nth-child(even){
+    background-color:#dcf0f5;
+}
+tr:nth-child(odd){
+    background-color:#7dddf5 ;
+}
+table{
+    border-collapse: collapse;
+}
+tr:hover{
+    color: #44b478;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+td button{
+    border: none;
+    padding: 7px 20px;
+    border-radius:20px ;
+    background-color: #2194b8;
+    color: white;
+
+
+}
+.header_fixed{
+    height: 500px;
+    overflow: auto;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+.header_fixed thead th{
+    position: sticky;
+    top: 0;
+    background-color:#2194b8 ;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}

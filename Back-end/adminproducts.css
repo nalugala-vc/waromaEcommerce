@@ -1,0 +1,189 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sc1 {
+    width: 50px;
+    height: 40px;
+}
+
+#sc2 {
+    width: 30px;
+    height: 30px;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav>* {
+    margin-right: 5%;
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.name {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 240px;
+    background: #53BFF5;
+    position: fixed;
+    top: 0;
+    left: -220px;
+    padding: 6px, 14px;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 15%;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+
+}
+
+.nav-links .fa-solid {
+    font-size: 20px;
+
+}
+
+.nav-links>* {
+    margin: auto;
+}
+
+.logo-namee {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+.i1{
+    padding-left: 2%;
+}
+.sidebar.active {
+    left: 0px;
+
+}
+.cate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.form{
+    
+    align-items: center;
+    margin: auto;
+}
+.mydivfom{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 452px;
+    height: 41px;
+    background: #C5F0FA;
+    border-radius: 20px;
+    
+}
+.myform>*{
+    margin: 2%;
+    align-items: center;
+    border: none;
+
+}
+.categsel {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid #53BFF5;
+}
+.button {
+    width: 100px;
+    height: 42px;
+    background: #53BFF5;
+    border-radius: 20px;
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+
+    color: #000000;
+}
+.mybutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cat{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+}
+label{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+}
+.head{
+    font-weight: 600;
+}
+.mycolcontain{
+    width: 452px;
+    display: flex;
+    justify-content: center;
+    
+}
+.mycolcontain>*{
+    margin: 2%;
+
+}
+@media only screen and (max-width: 600px) {
+    .input{
+        width: 300px;
+    }
+}

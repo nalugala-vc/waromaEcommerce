@@ -1,0 +1,850 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+
+#sc1 {
+
+    width: 32px;
+    height: 30px;
+}
+
+.logo-name {
+    width: 143px;
+    height: 31px;
+
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+}
+
+#user {
+    width: 22px;
+    height: 22px;
+}
+
+#sc2 {
+    width: 25px;
+    height: 21px;
+}
+
+.main-nav ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    position: relative;
+
+}
+
+.main-nav a {
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 1rem;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: black;
+}
+
+.main-nav a.active::after,
+.main-nav a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: #C5F0FA;
+    bottom: 6px;
+    left: 20px;
+
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.mydivul {
+    background: #C5F0FA;
+    width: 100%;
+    display: none;
+}
+
+.myul li {
+    list-style: none;
+    margin: 5%;
+    padding: 4px;
+}
+
+.myul>* {
+    display: flex;
+    justify-content: center;
+}
+
+.myul a {
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    color: black;
+
+}
+
+.myul a:hover,
+a.active {
+    color: #C4C4C4;
+}
+.myconny{
+    display: flex;
+}
+.div-head {
+    width: 692px;
+    background: #F2FAFC;
+}
+.sc {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+}
+.the-body {
+    display: block;
+    width: 700px;
+}
+
+.the-body>* {
+    margin-top: 5%;
+    
+
+}
+.div-bod {
+    width: 692px;
+    display: flex;
+    background: #F0FAF4;
+}
+.pic {
+    width: 138px;
+    height: 220px;
+    background: grey;
+
+
+}
+#quant{
+    height: 40px;
+    width: 60px;
+}
+.myfomm{
+    display: flex;
+}
+.myfomm>*{
+    margin: 2%;
+}
+.pic-info {
+    display: flex;
+    margin: 5%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+}
+
+.pic-info>* {
+    margin: 2%;
+}
+
+.icons {
+    display: flex;
+    padding-top: 2%;
+}
+
+.icons>* {
+    
+    margin-bottom: 45%;
+    margin-left: 20%;
+}
+
+.fa-solid {
+    color: #1a7cad;
+    font-size: 45px;
+}
+
+.fa-regular {
+    color: #1a7cad;
+    font-size: 45px;
+}
+.checkbox {
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+.butonns {
+    display: flex;
+}
+
+.butonns>* {
+    margin: 2%;
+}
+
+.button {
+    width: 160px;
+    height: 52px;
+    background: #53BFF5;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+.buttona {
+    width: 160px;
+    height: 52px;
+    background: #75D1FF;
+    border-radius: 20px;
+    
+    text-align: center;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.myp{
+    position: relative;
+    top: -7px;
+}
+.mypos{
+    position: relative;
+   
+}
+.order {
+    margin-bottom: 1000px;
+    position: fixed;
+    width: 350px;
+    background: #EBF7FA;
+    
+}
+
+.summary {
+    display: block;
+}
+
+.summary>* {
+    margin: 10%;
+}
+
+.st {
+    display: flex;
+}
+
+.sh {
+    display: flex;
+}
+
+.total {
+    display: flex;
+}
+
+.os {
+    padding-top: 10%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.st {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.sh {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.total {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.order-sum>* {
+    margin: 5%;
+}
+.mybutt{
+    padding-bottom: 10%;
+}
+.mybutton {
+    margin-left: 22%;
+    width: 222px;
+    height: 66px;
+    background: #53BFF5;
+    border-radius: 20px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.smsc{
+    width: 100%;
+    background: #F0FAF4;
+}
+.myprod{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 150px;
+    height: 187px;
+    background: #C4C4C4;
+}
+.mywhprod{
+    display: flex;
+    align-items: center;
+}
+.myprodinf{
+    margin-left: 5%;
+}
+.donno{
+    display: flex;
+}
+.donno>*{
+    padding-right: 2%;
+}
+.monies{
+    width: 120px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    justify-content: space-between;
+    color: #000000;
+
+}
+.namee{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    justify-content: space-between;
+    color: #000000;
+
+}
+#myinp{
+    width: 90px;
+}
+#mychecki{
+    width: 20px;
+    height: 20px;
+}
+.myodsum{
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #C5F0FA;
+    display: flex;
+    justify-content: space-between;
+}
+.myodsumm,.smcc{
+    display: none;
+}
+.checkoutbt{
+    width: 90px;
+    height: 30px;
+    background: #53BFF5;
+    border-radius: 10px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.totall{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.mycheckbtn{
+    display: flex;
+    align-items: center;
+}
+.main-footer {
+    overflow: hidden;
+    margin-top: 2%;
+    background: #C6F5DE;
+    display: flex;
+}
+
+
+.main-footer>* {
+    margin: 2%;
+}
+
+.logoname {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+}
+
+.footer-cart {
+    width: 41px;
+    height: 40px;
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+}
+
+.info {
+    width: 326px;
+    height: 161px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #949191;
+}
+
+.contacts {
+    display: block;
+
+}
+
+.contacts>* {
+    margin: 5%;
+}
+
+.contact-us {
+    width: 172px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.number {
+    width: 437px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.waromaemail {
+    width: 283px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.location {
+    width: 307px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.About {
+    width: 355px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.faq {
+    width: 46px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.support {
+    width: 86px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.pp {
+    width: 186px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.about>* {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+html,body{
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 500px){
+    .checkbtn {
+            display: block;
+        }
+    
+        .main-nav ul {
+            display: none;
+        }
+    
+        .pri-nav ul li {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+        .myul {
+            background: #C5F0FA;
+        }
+    
+        .mydivul.active {
+            display: contents;
+            background: #C5F0FA;
+            width: 100%;
+        }
+    
+        .myconny {
+            display: none;
+        }
+    
+        .myprod {
+            width: 140px;
+            height: 177px;
+        }
+        .donno>*{
+        padding-right: 2px;
+        }
+        .myodsumm,.smcc{
+            display:contents;
+        }
+    .logoname {
+        font-size: 18px;
+    }
+
+    .footer-cart {
+        width: 11px;
+        height: 10px;
+    }
+
+    .info {
+        font-size: 10px;
+        width: 150px;
+        line-height: 10px;
+    }
+
+    .contact-us,
+    .About {
+        font-size: 12px;
+    }
+
+    .contacts>* {
+        margin: 4px;
+    }
+
+    .waromaemail,
+    .contact-us,
+    .number {
+        width: 70px;
+    }
+
+    .number,
+    .waromaemail,
+    .location,
+    .faq,
+    .about,
+    .support,
+    .pp {
+        font-size: 8px;
+    }
+
+    .location {
+        width: 100px;
+    }
+
+    .about>* {
+        margin-left: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .main-footer {
+        height: 120px;
+        margin: auto;
+    }
+
+
+}
+@media only screen and (max-width: 400px) and (min-width: 300px){
+    .checkbtn {
+        display: block;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    .pri-nav ul li {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .myul {
+        background: #C5F0FA;
+    }
+
+    .mydivul.active {
+        display: contents;
+        background: #C5F0FA;
+        width: 100%;
+    }
+    .myconny{
+        display: none;
+    }
+    .myprod {
+            width: 130px;
+            height: 167px;
+        }
+    .donno>*{
+    padding-right: 2px;
+    }
+    .myodsumm,.smcc{
+            display:contents;
+        }
+        .logoname {
+        font-size: 18px;
+    }
+
+    .footer-cart {
+        width: 11px;
+        height: 10px;
+    }
+
+    .info {
+        font-size: 10px;
+        width: 150px;
+        line-height: 10px;
+    }
+
+    .contact-us,
+    .About {
+        font-size: 12px;
+    }
+
+    .contacts>* {
+        margin: 4px;
+    }
+
+    .waromaemail,
+    .contact-us,
+    .number {
+        width: 70px;
+    }
+
+    .number,
+    .waromaemail,
+    .location,
+    .faq,
+    .about,
+    .support,
+    .pp {
+        font-size: 8px;
+    }
+
+    .location {
+        width: 100px;
+    }
+
+    .about>* {
+        margin-left: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .main-footer {
+        height: 120px;
+        margin: auto;
+    }
+
+}
+@media only screen and (max-width: 600px) and (min-width: 501px){
+    .checkbtn {
+            display: block;
+        }
+    
+        .main-nav ul {
+            display: none;
+        }
+    
+        .pri-nav ul li {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+        .myul {
+            background: #C5F0FA;
+        }
+    
+        .mydivul.active {
+            display: contents;
+            background: #C5F0FA;
+            width: 100%;
+        }
+    
+        .myconny {
+            display: none;
+        }
+        .myodsumm,.smcc{
+            display:contents;
+        }
+        .logoname {
+        font-size: 18px;
+    }
+    .myfooter{
+        margin-left: 2%;
+    }
+
+    .footer-cart {
+        width: 11px;
+        height: 10px;
+    }
+
+    .info {
+        font-size: 10px;
+        width: 150px;
+        line-height: 10px;
+    }
+
+    .contact-us,
+    .About {
+        font-size: 12px;
+    }
+
+    .contacts>* {
+        margin: 4px;
+    }
+
+    .waromaemail,
+    .contact-us,
+    .number {
+        width: 70px;
+    }
+
+    .number,
+    .waromaemail,
+    .location,
+    .faq,
+    .about,
+    .support,
+    .pp {
+        font-size: 8px;
+    }
+
+    .location {
+        width: 100px;
+    }
+
+    .about>* {
+        margin-left: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .main-footer {
+        height: 120px;
+        margin: auto;
+    }
+
+
+}

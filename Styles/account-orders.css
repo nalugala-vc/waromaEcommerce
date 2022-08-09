@@ -1,0 +1,159 @@
+.nav2{
+    position: absolute;
+        width: 625px;
+        height: 136px;
+        left: 447px;
+        top: 184px;
+    
+        background: #F2FAFC;
+}
+.pri-nav2 ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 30px;
+}
+.pri-nav2 a{
+    text-decoration: none;
+    
+    top: 100px;
+    padding: 1rem;
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #000000;
+}
+.pri-nav2 a:hover{
+    color: #53BFF5;
+}
+.container{
+    display: block;
+    position: absolute;
+    left: 447px;
+    top: 330px;
+}
+.container >*{
+    margin: 2%;
+}
+.img-product{
+        
+        width: 180px;
+        height: 250px;
+        left: 20px;
+    
+        background: #EBF7FA;
+}
+.img-name{
+    
+        width: 278px;
+        height: 28px;
+    
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.img-price{
+    
+        width: 113px;
+        height: 28px;
+
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.view{
+    
+        width: 215px;
+        height: 56px;
+
+    
+        background: #C6F5DE;
+        border: 3px solid #000000;
+        
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+        
+            color: #000000;
+}
+.add{
+    
+        width: 113px;
+        height: 36px;
+        left: 901px;
+        top: 501px;
+    
+        background: #53BFF5;
+        border: 3px solid #000000;
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            /* identical to box height */
+        
+            text-align: center;
+        
+            color: #000000;
+}
+.delete{
+    
+        width: 113px;
+        height: 36px;
+        
+    
+        background: #FFFFFF;
+        border: 3px solid #000000;
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+        
+            text-align: center;
+        
+            color: #000000;
+}
+.container>*{
+    margin: 5%;
+}
+.products{
+    display: flex;
+    align-items: center;
+}
+.img-info{
+    display: block;
+   
+    
+}
+.img-info >*{
+    margin: 2%;
+}
+.mybuttons{
+    display: block;
+    position: absolute;
+    left: 450px;
+    justify-content: space-around;
+}
+.mybuttons > *{
+    margin: 2%;
+}

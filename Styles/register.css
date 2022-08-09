@@ -1,0 +1,73 @@
+.logo-div{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+        width: 320px;
+        height: 670px;
+    
+        background: #53BFF5;
+}
+.waroma{
+    position: relative;
+    left: 20px;
+    font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+        color: #FFFFFF;
+}
+.reglogo{
+    width: 52px;
+    height: 57px;
+    position: relative;
+    left: 20px;
+}
+.registerr{
+    position:absolute;
+    left: 350px;
+    top: 0px;
+}
+.registerr>*{
+    margin-bottom: 8%;
+}
+.myform{
+    display: block;
+}
+.myform>*{
+    margin: 2%;
+    border: none;
+}
+.input{
+    width: 453px;
+    height: 41px;
+    
+        background: #C5F0FA;
+        border-radius: 20px;
+}
+.reg{
+    font-family: 'Lucida Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+    
+        color: #000000;
+}
+.button{
+    width: 100px;
+    height: 42px; 
+    background: #53BFF5;
+    border-radius: 20px;
+    font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    
+        color: #000000;
+}

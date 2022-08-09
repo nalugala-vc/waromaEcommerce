@@ -1,0 +1,471 @@
+html {
+    width: 1106px;
+    margin: 2px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+
+#sc1 {
+
+    width: 32px;
+    height: 30px;
+}
+
+.logo-name {
+    width: 143px;
+    height: 31px;
+
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+}
+
+#user {
+    width: 22px;
+    height: 22px;
+}
+
+#sc2 {
+    width: 25px;
+    height: 21px;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.main-nav a {
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+.div-head{
+    position: absolute;
+        width: 692px;
+        height: 142px;
+        left: 0px;
+        top: 150px;
+    
+        background: #F2FAFC;
+}
+.sc{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 57px;
+        position: relative;
+        color: #000000;
+        left: 80px;
+        top: 30px;
+}
+.the-body{
+    display: block;
+
+    height: 800px;
+    width: 700px;
+}
+.the-body>*{
+    margin: 5%;
+    position: absolute;
+    top: 250px;
+    left: -50px;
+
+}
+
+.div-bod{
+        position: relative;
+        width: 692px;
+        height: 220px;
+        top: 120px;
+        
+        display: flex;
+    
+        background: #F0FAF4;
+}
+
+.pic{
+    position: relative;
+        left: 30px;
+        width: 138px;
+        height: 220px;
+        background:grey;
+
+    
+}
+
+.pic-info{
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+        width: 317px;
+        height: 28px;
+        
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    
+        color: #000000;
+}
+.pic-info >*{
+    margin: 2%;
+}
+.icons{
+    display: flex;
+    position: relative;
+    left: 130px;
+
+}
+.icons >*{
+    margin: 25%;
+}
+.fa-solid{
+    color: #1a7cad;
+    font-size: 45px;
+}
+.fa-regular{
+    color: #1a7cad;
+    font-size: 45px;
+}
+
+.checkbox{
+    
+        width: 52px;
+        height: 52px;
+
+    
+        background: #FFFFFF;
+        border: 2px solid #000000;
+}
+.butonns{
+    position: relative;
+    display: flex;
+    top: 150px;
+    left: -30px;
+}
+.butonns>*{
+    margin: 2%;
+}
+
+.button{
+
+        width: 160px;
+        height: 52px;
+    
+        background: #C4C4C4;
+    
+        border-radius: 20px;
+            font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            
+            color: #000000;
+}
+.order{
+    position: absolute;
+        width: 350px;
+        height: 414px;
+        left: 740px;
+        top: 150px;
+    
+        background: #EBF7FA;
+}
+.summary{
+    display: block;
+}
+.summary >*{
+    margin: 10%;
+}
+.st{
+    display: flex;
+}
+.sh{
+    display: flex;
+}
+.total{
+    display: flex;
+}
+.os{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+    
+    
+        color: #000000;
+}
+.st{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        justify-content: space-between;
+    
+        color: #000000;
+}
+.sh{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        justify-content: space-between;
+    
+        color: #000000;
+}
+.total{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        justify-content: space-between;
+    
+        color: #000000;
+}
+.order-sum >*{
+    margin: 5%;
+}
+.mybutton{
+        width: 222px;
+        height: 66px;
+    
+        background: #53BFF5;
+        border-radius: 20px;
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 38px;
+            position: relative;
+            left: 70px;
+
+            color: #FFFFFF;
+}
+.main-footer {
+    position: absolute;
+    width: 1106px;
+    height: 332px;
+    left: 0px;
+    top: 1235px;
+    overflow: hidden;
+
+    background: #C6F5DE;
+    display: flex;
+
+}
+
+.logoname {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 69px;
+
+    color: #000000;
+}
+
+.footer-cart {
+    width: 51px;
+    height: 50px;
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+
+.info {
+    position: absolute;
+    width: 326px;
+    height: 161px;
+    left: 25px;
+    top: 82px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #949191;
+}
+
+.contact-us {
+    position: absolute;
+    width: 172px;
+    height: 38px;
+    left: 467px;
+    top: 48px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.number {
+    position: absolute;
+    width: 437px;
+    height: 141px;
+    left: 467px;
+    top: 117px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.waromaemail {
+    position: absolute;
+    width: 283px;
+    height: 35px;
+    left: 467px;
+    top: 177px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.location {
+    position: absolute;
+    width: 307px;
+    height: 102px;
+    left: 467px;
+    top: 236px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.About {
+    position: absolute;
+    width: 355px;
+    height: 93px;
+    left: 900px;
+    top: 48px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.faq {
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 900px;
+    top: 117px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.support {
+    position: absolute;
+    width: 86px;
+    height: 26px;
+    left: 900px;
+    top: 177px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+
+    color: #000000;
+}
+
+.pp {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 900px;
+    top: 236px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+
+    color: #000000;
+}
+
+body {
+    width: 1106px;
+}

@@ -1,0 +1,231 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sc1{
+    width: 30px;
+        height: 30px;
+}
+#sc2{
+    width: 30px;
+    height: 30px;
+}
+
+.main-nav{
+    display: flex;
+}
+.main-nav>*{
+    margin-right: 5%;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-name{
+    font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+}
+.name{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+}
+.sidebar{
+    height: 100%;
+    width: 240px;
+    background: #53BFF5;
+    position: fixed;
+    top: 0;
+    left: -220px;
+    padding:6px,14px;
+}
+.logo-content{
+    display: flex;
+    justify-content:space-between ;
+    padding: 2px;
+    align-items: center;
+}
+.nav-links li{
+    list-style: none;
+    margin: 15%;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+
+}
+.nav-links .fa-solid{
+    font-size: 20px;
+
+}
+.nav-links>*{
+    margin: auto;
+}
+.logo-namee{
+    font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #FFFFFF;
+
+}
+.sidebar.active{
+    left: 0px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+.container>*{
+    margin: 5px;
+    align-items: center;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+    background: #EBF7FA;
+}
+.adlin{
+    text-decoration: none;
+}
+.adlink{
+    text-decoration: none;
+    color: #000;
+}
+.adlink>* {
+    align-items: center;
+}
+.adlin>*{
+    align-items: center;
+}
+.con1{
+    background: #53BFF5;
+    color: #FFFFFF;
+}
+.sub-con{
+   /* margin-right: 42%;*/
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+}
+.sub-con>*{
+    margin: 4%;
+}
+.fa-user,.fa-sack-dollar,.fa-cc-amazon-pay{
+    font-size: 50px;
+    color: #53BFF5;
+}
+.fa-bag-shopping{
+    font-size: 50px;
+
+}
+.LO{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+}
+.headi{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2>* {
+    margin: 15px;
+}
+.container3{
+    width: 522px;
+    background: #EBF7FA;
+}
+.container3>*{
+    margin: 5%;
+}
+.order-info{
+    display: flex;
+}
+.order-info>*{
+    margin-right: 2px;
+}
+.OI{
+    display: flex;
+    justify-content: space-between;
+}
+.container4{
+    width: 460px;
+    background: #EBF7FA;
+}
+.container4>*{
+    margin: 5%;
+}
+.OI .fa-user,.fa-at,.fa-phone{
+    font-size: 30px;
+    color: #53BFF5;
+}
+.index2{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .con{
+        width: 200px;
+    }
+    .container3{
+        width: 100%;
+    }
+    .LO{
+        font-size: 20px;
+    }
+    .email{
+        display: none;
+    }
+    .container2{
+        justify-content: center;
+    }
+        .OI .fa-user,
+        .fa-at,
+        .fa-phone {
+            font-size: 20px;
+            color: #53BFF5;
+        }
+    
+        .index2 {
+            font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .container2{
+            justify-content: center;
+        }
+        .container2>* {
+            margin: 2%;
+        }
+
+}

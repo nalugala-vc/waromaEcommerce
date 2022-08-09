@@ -1,0 +1,1446 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+
+#sc1 {
+
+    width: 32px;
+    height: 30px;
+}
+
+.logo-name {
+    width: 143px;
+    height: 31px;
+
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+}
+
+#user {
+    width: 22px;
+    height: 22px;
+}
+
+#sc2 {
+    width: 25px;
+    height: 21px;
+}
+
+.main-nav ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    position: relative;
+
+}
+
+.main-nav a {
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 1rem;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: black;
+}
+
+.main-nav a.active::after,
+.main-nav a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: #C5F0FA;
+    bottom: 6px;
+    left: 20px;
+
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.mydivul {
+    background: #C5F0FA;
+    width: 100%;
+    display: none;
+}
+
+.myul li {
+    list-style: none;
+    margin: 5%;
+    padding: 4px;
+}
+
+.myul>* {
+    display: flex;
+    justify-content: center;
+}
+
+.myul a {
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    color: black;
+
+}
+.navigation {
+    width: 409px;
+    background: #EBF7FA;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pri-nav ul li{
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+.pri-nav ul {
+    list-style: none;
+
+}
+.pri-nav a:hover {
+    color: #53BFF5;
+}
+.pri-nav a {
+    margin: 2%;
+    text-decoration: none;
+    width: 149px;
+    height: 35px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: black;
+}
+
+.myul a:hover,
+a.active {
+    color: #C4C4C4;
+}
+.main-div {
+    margin-left: 5%;
+        width: 579px;
+        background: #F2FAFC;
+}
+#img-acc {
+    width: 64px;
+    height: 61px;
+}
+.navmydiv{
+    display: flex;
+    
+}
+.acc-greet {
+    margin-left: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+
+    color: #000000;
+}
+.main-icons {
+    display: flex;
+}
+.fa-solid {
+    color: #1a7cad;
+    font-size: 64px;
+}
+
+.fa-solid:hover {
+    color: #53BFF5;
+}
+.icon-name {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: -6px;
+    color: #000000;
+}
+.main-icons>* {
+    margin: auto;
+}
+.main-icons a {
+    text-decoration: none;
+}
+.icon-con a {
+    text-decoration: none;
+}
+.divi {
+    margin-left: 5%;
+        width: 579px;
+        background: #F0FAF4;
+}
+h5 {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+.h5{
+    margin-left: 30%;
+}
+.icon-con {
+    display: flex;
+    margin: auto;
+}
+.icon-con>* {
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.name-icon {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.icon-conn {
+    display: block;
+}
+.conn1 {
+    display: flex;
+    align-items: center;
+}
+
+.conn2 {
+    display: flex;
+    align-items: center;
+}
+.icon-conn a{
+    text-decoration: none;
+}
+.myiconz>*{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.con-name {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 30px;
+    color: #000000;
+}
+.main-footer {
+    overflow: hidden;
+    margin-top: 2%;
+    background: #C6F5DE;
+    display: flex;
+}
+
+.main-footer>* {
+    margin: 2%;
+}
+
+.logoname {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+}
+
+.footer-cart {
+    width: 41px;
+    height: 40px;
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+}
+
+.info {
+    width: 326px;
+    height: 161px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #949191;
+}
+
+.contacts {
+    display: block;
+
+}
+
+.contacts>* {
+    margin: 5%;
+}
+
+.contact-us {
+    width: 172px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.number {
+    width: 437px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.waromaemail {
+    width: 283px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.location {
+    width: 307px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.About {
+    width: 355px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+
+.faq {
+    width: 46px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.support {
+    width: 86px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.pp {
+    width: 186px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+
+.about>* {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.heading{
+    margin-left: 7%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+.heading>* {
+    margin: 5px;
+}
+.manage {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.guidelines {
+    font-family: 'Lucida Bright';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.malorem {
+    margin-left: 7%;
+    padding-bottom: 5%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.malorem>* {
+    margin: 10px;
+}
+.mynav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.mynav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+
+    font-family: 'Lucida Bright';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.mynav a:hover {
+    color: #53BFF5;
+
+}
+.mynav2 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.mynav2 a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.myship{
+    color: #000000;
+        padding-left: 22%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 28px;
+}
+.idiv {
+    display: flex;
+
+}
+.idiv>*{
+    margin: 2%;
+
+}
+
+.shipinfo {
+    display: block;
+    padding-top: 5%;
+    margin: 5%;
+}
+#fa-solid {
+    color: #1a7cad;
+    font-size: 40px;
+
+}
+.shipinfo>* {
+    margin: 10%;
+}
+.adress{
+    margin-left: 25%;
+    padding-bottom: 10%;
+
+}
+.address {
+    width: 269px;
+    height: 80px;
+    background: #53BFF5;
+    border-radius: 20px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.mynav2 a:hover {
+    color: #53BFF5;
+}
+.mydivi3 {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+    color: #000000;
+}
+.links ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links a {
+    color: #53BFF5;
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 12%;
+
+}
+
+.links a:hover {
+    color: #1a7cad;
+}
+.services{
+    width: 100%;
+    margin: auto;
+    background-color: #EBF7FA;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.Serv{
+    margin-left: 5%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+
+}
+span{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.myiconi{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.myiconi>* {
+    padding: 6%;
+}
+.subiconi{
+    margin: auto;
+}
+.subiconi a{
+    text-decoration: none;
+}
+.heada1 {
+    width: 625px;
+    background: #F2FAFC;
+    margin-left: 5%;
+
+}
+
+.heada2 {
+    width: 625px;
+    background: #F2FAFC;
+    margin-left: 5%;
+
+}
+
+.boddy {
+    width: 625px;
+    background: #F0FAF4;
+    margin-left: 5%;
+
+}
+.refunds {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+}
+.minnav1 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.minnav1 a {
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.minnav1 a:hover {
+    color: #53BFF5;
+}
+
+.minnav2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.minnav2 a {
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.minnav2 a:hover {
+    color: #53BFF5;
+}
+
+.no {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+.heada {
+    margin-left: 5%;
+    width: 625px;
+    background: #F2FAFC;
+
+}
+
+.sett {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.nav a {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: #000000;
+    color: #53BFF5;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.infom {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+.helpm {
+    top: 50px;
+    width: 579px;
+}
+
+.helpm>* {
+    margin: 7%;
+}
+
+.head {
+    padding-top: 10%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #000000;
+}
+
+.bodyy {
+    display: flex;
+    padding-bottom:10% ;
+
+}
+
+.bodyy>* {
+    margin-left: 10px;
+}
+
+.input {
+    width: 288px;
+    height: 46px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.button {
+    width: 120px;
+    height: 50px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+    background: #948F8F;
+}
+.questions>* {
+    margin: 5%;
+}
+
+.frequently {
+    padding-top: 10%;
+    width: 481px;
+    height: 42px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.asked a {
+    width: 593px;
+    height: 121px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #53BFF5;
+}
+.asked{
+    padding-bottom: 10%;
+}
+
+.asked a:hover {
+    color: #1a7cad;
+}
+.inbox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.date {
+    padding-left: 2%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+html,
+body {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.mycontain {
+    min-height: 100%;
+}
+
+.main {
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+.experience {
+    padding-left: 2%;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.messg {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+@media only screen and (max-width: 500px) {
+    .checkbtn {
+            display: block;
+        }
+    
+        .main-nav ul {
+            display: none;
+        }
+        .pri-nav ul li {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        .myul {
+            background: #C5F0FA;
+        }
+    
+        .mydivul.active {
+            display: contents;
+            background: #C5F0FA;
+            width: 100%;
+        }
+        .navigation{
+            display: none;
+        }
+        .fa-solid {
+            color: #1a7cad;
+            font-size: 34px;
+        }
+        .icon-name,.name-icon,.con-name,span{
+            font-size: 18px;
+        }
+        .logoname {
+            font-size: 18px;
+        }
+    
+        .footer-cart {
+            width: 11px;
+            height: 10px;
+        }
+    
+        .info {
+            font-size: 10px;
+            width: 150px;
+            line-height: 10px;
+        }
+    
+        .contact-us,
+        .About {
+            font-size: 12px;
+        }
+    
+        .contacts>* {
+            margin: 4px;
+        }
+    
+        .waromaemail,
+        .contact-us,
+        .number {
+            width: 70px;
+        }
+    
+        .number,
+        .waromaemail,
+        .location,
+        .faq,
+        .about,
+        .support,
+        .pp {
+            font-size: 8px;
+        }
+    
+        .location {
+            width: 100px;
+        }
+    
+        .about>* {
+            margin-left: 6px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+    
+        .main-footer {
+            height: 120px;
+            margin: auto;
+        }
+        .main-div,.divi,.heada1,.heada2,.boddy,.heada{
+            width: 400px;
+            margin: auto;
+        }
+        .manage,.guidelines{
+            font-size: 20px;
+        }
+        .malorem{
+            font-size: 12px;
+        }
+        .mynav a {
+            font-size: 16px;
+        }
+    
+        .mynav2 a {
+            font-size: 14px;
+        }
+    
+        .mydivi3 {
+            font-size: 12px;
+        }
+        .shipinfo>* {
+            margin: 10%;
+        }
+        .adress{
+            margin-left: 18%;
+        }
+        .address {
+            width: 180pxpx;
+            height: 70px;
+        }
+        .myship{
+            font-size: 24px;
+            padding-left: 18%;
+        }
+        .links a{
+            font-size: 20px;
+        }
+        .refunds,.sett,.head{
+            font-size: 35px;
+
+        }
+        .input{
+            width: 200px;
+            height: 36px;
+        }
+        .button{
+            width: 90px;
+            height: 40px;
+            font-size: 18px;
+        }
+        .helpm{
+            margin: auto;
+        }
+        .frequently{
+            font-size: 26px;
+        }
+        .asked a{
+            font-size: 20px;
+        }
+        .infom{
+            font-size: 24px;
+        }  
+        .minnav1 a,.nav a{
+            font-size: 18px;
+        }
+        .minnav2 a{
+            font-size: 13px;
+        }
+        .no{
+            font-size: 11px;
+        } 
+        .inbox{
+            font-size: 35px;
+        } 
+        .date,.experience,.messg{
+            font-size: 14px;
+        }        
+        .services {
+                    display: contents;
+                    background: #EBF7FA;
+                }
+                .Serv,
+                .acc-greet,
+                h5 {
+                    font-size: 22px;
+                }
+}
+@media only screen and (max-width: 600px) and (min-width: 501px) {
+
+    .checkbtn {
+            display: block;
+        }
+    
+        .main-nav ul {
+            display: none;
+        }
+    
+        .pri-nav ul li {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    
+        .myul {
+            background: #C5F0FA;
+        }
+    
+        .mydivul.active {
+            display: contents;
+            background: #C5F0FA;
+            width: 100%;
+        }
+    
+        .navigation {
+            display: none;
+        }
+    
+        .fa-solid {
+            color: #1a7cad;
+            font-size: 34px;
+        }
+    
+        .icon-name,
+        .name-icon,
+        .con-name,
+        span {
+            font-size: 18px;
+        }
+    
+        .logoname {
+            font-size: 18px;
+        }
+    
+        .footer-cart {
+            width: 11px;
+            height: 10px;
+        }
+    
+        .info {
+            font-size: 10px;
+            width: 150px;
+            line-height: 10px;
+        }
+    
+        .contact-us,
+        .About {
+            font-size: 12px;
+        }
+    
+        .contacts>* {
+            margin: 4px;
+        }
+    
+        .waromaemail,
+        .contact-us,
+        .number {
+            width: 70px;
+        }
+    
+        .number,
+        .waromaemail,
+        .location,
+        .faq,
+        .about,
+        .support,
+        .pp {
+            font-size: 8px;
+        }
+    
+        .location {
+            width: 100px;
+        }
+    
+        .about>* {
+            margin-left: 6px;
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+    
+        .main-footer {
+            height: 120px;
+            margin: auto;
+        }
+    
+        .main-div,.divi,.heada1,.heada2,.boddy,.heada{
+            width: 500px;
+            margin: auto;
+        }
+        .services{
+            display: contents;
+            background: #EBF7FA;
+        }
+        .manage,
+        .guidelines {
+            font-size: 20px;
+        }
+        
+        .malorem {
+            font-size: 12px;
+        }
+        .mynav a{
+            font-size: 16px;
+        }
+        .mynav2 a{
+            font-size: 14px;
+        }
+        .mydivi3{
+            font-size: 12px;
+        }
+        .adress {
+            margin-left: 18%;
+        }
+    
+        .address {
+            width: 180pxpx;
+            height: 70px;
+        }
+    
+        .myship {
+            font-size: 24px;
+            padding-left: 18%;
+        }
+        .links a {
+            font-size: 20px;
+        }
+        .refunds,.sett,.head{
+            font-size: 35px;
+
+        }
+        .input{
+            width: 200px;
+            height: 36px;
+        }
+        .button{
+            width: 90px;
+            height: 40px;
+            font-size: 18px;
+        }
+        .helpm{
+            margin: auto;
+        }
+        .frequently{
+            font-size: 26px;
+        }
+        .asked a{
+            font-size: 20px;
+        }
+        .infom{
+            font-size: 24px;
+        } 
+        .minnav1 a{
+            font-size: 18px;
+        }
+        .minnav2 a{
+            font-size: 13px;
+        }
+        .no{
+            font-size: 11px;
+        } 
+        .inbox{
+            font-size: 35px;
+        } 
+        .date,.experience,.messg{
+            font-size: 14px;
+        }     
+
+        .Serv,
+        .acc-greet,
+        h5 {
+            font-size: 22px;
+        }
+
+}
+@media only screen and (max-width: 400px) and (min-width: 300px) {
+
+    .checkbtn {
+        display: block;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    .pri-nav ul li {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .myul {
+        background: #C5F0FA;
+    }
+
+    .mydivul.active {
+        display: contents;
+        background: #C5F0FA;
+        width: 100%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .fa-solid {
+        color: #1a7cad;
+        font-size: 34px;
+    }
+
+    .icon-name,
+    .name-icon,
+    .con-name,
+    span {
+        font-size: 18px;
+    }
+
+    .logoname {
+        font-size: 18px;
+    }
+
+    .footer-cart {
+        width: 11px;
+        height: 10px;
+    }
+
+    .info {
+        font-size: 10px;
+        width: 150px;
+        line-height: 10px;
+    }
+
+    .contact-us,
+    .About {
+        font-size: 12px;
+    }
+
+    .contacts>* {
+        margin: 4px;
+    }
+
+    .waromaemail,
+    .contact-us,
+    .number {
+        width: 70px;
+    }
+
+    .number,
+    .waromaemail,
+    .location,
+    .faq,
+    .about,
+    .support,
+    .pp {
+        font-size: 8px;
+    }
+
+    .location {
+        width: 100px;
+    }
+
+    .about>* {
+        margin-left: 6px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .main-footer {
+        height: 120px;
+        margin: auto;
+    }
+    .main-div,.divi,.heada1,.heada2,.boddy,.heada{
+            width: 350px;
+            margin: auto;
+        }
+        .mynav a {
+            font-size: 16px;
+        }
+    
+        .mynav2 a {
+            font-size: 14px;
+        }
+    
+        .mydivi3 {
+            font-size: 12px;
+        }
+        .services {
+            display: contents;
+
+        }
+        .adress {
+            margin-left: 14%;
+        }
+    
+        .address {
+            width: 180pxpx;
+            height: 70px;
+        }
+    
+        .myship {
+            font-size: 24px;
+            padding-left: 14%;
+        }
+        .links a {
+            font-size: 20px;
+        }
+        .refunds,.sett{
+            font-size: 35px;
+
+        }
+        .head{
+            font-size: 30px;
+        }
+        .input{
+            width: 180px;
+            height: 36px;
+        }
+        .button{
+            width: 70px;
+            height: 40px;
+            font-size: 16px;
+        }
+        .helpm{
+            margin: auto;
+        }
+        .frequently{
+            font-size: 24px;
+        }
+        .asked a{
+            font-size: 18px;
+        }
+        .infom{
+            font-size: 24px;
+        } 
+        .minnav1 a{
+            font-size: 18px;
+        }
+        .minnav2 a{
+            font-size: 13px;
+        }
+        .no{
+            font-size: 11px;
+        } 
+        .inbox{
+            font-size: 32px;
+        } 
+        .date,.experience,.messg{
+            font-size: 12px;
+        }           
+                .manage,
+                .guidelines {
+                    font-size: 20px;
+                }
+        
+                .malorem {
+                    font-size: 12px;
+                }
+    .Serv,.acc-greet,h5{
+        font-size: 22px;
+    }
+
+}

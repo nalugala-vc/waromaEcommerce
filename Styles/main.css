@@ -1,0 +1,1015 @@
+html{
+    width: 1106px;
+    margin: 2px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+#sc1{
+    
+    width: 32px;
+    height: 30px;
+}
+.logo-name{
+    width: 143px;
+    height: 31px;
+    
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+}
+#user{
+    width: 22px;
+    height:22px ;
+}
+#sc2{
+    width: 25px;
+    height: 21px;
+}
+
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    position: relative;
+
+}
+
+.main-nav  a{
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 1rem;
+    transition: 0.3s ease;
+    position: relative;
+}
+.main-nav  a:hover,
+.main-nav  a.active{
+    color:black;
+}
+.main-nav  a.active::after,
+.main-nav a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: #C5F0FA;
+    bottom: 6px;
+    left: 20px;
+
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.banner1{
+    display:flex;
+    position:absolute;
+    width: 1106px;
+    height: 270px;
+    left: 0px;
+    top: 164px;
+
+    background: #C5F0FA;
+}
+.p1{
+    position: absolute;
+        width: 367px;
+        height: 54px;
+        left: 20px;
+    
+        font-family: 'Lucida Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+    
+        color: #000000;
+}
+#b1{
+position: absolute;
+    width: 136px;
+    height: 45px;
+    left: 86px;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    
+        color: #000000;
+}
+#models{
+    position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 428px;
+        top: 20px;
+    
+        background: url(models.jpg);
+}
+#bra1{
+    position: absolute;
+        width: 82px;
+        height: 59px;
+        left: 784px;
+        top: 25px;
+    
+        background: url(image.png);
+}
+#bra2{
+    position: absolute;
+        width: 91px;
+        height: 75px;
+        left: 784px;
+        top: 100px;
+    
+        background: url(image.png);
+}
+#bra3{
+    position: absolute;
+        width: 97px;
+        height: 75px;
+        left: 784px;
+        top: 175px;
+    
+        background: url(image.png);
+}
+.banner2{
+    position: absolute;
+        width: 444px;
+        height: 205px;
+        left: 69px;
+        top: 469px;
+    
+        background: #E5E5E5;
+}
+.summerdress{
+position: relative;
+    width: 118.66px;
+    height: 186.89px;
+    left: 293px;
+    top: 07px;
+
+
+}
+.promdress{
+    position: relative;
+        width: 150px;
+        height: 203px;
+        left: 20.03px;
+        top: 0.87px;
+    
+        background: url(image.png);
+        transform: matrix(-1, -0.01, -0.01, 1, 0, 0);
+
+}
+.banner3{
+    position: absolute;
+        width: 444px;
+        height: 205px;
+        left: 580px;
+        top: 469px;
+    
+        background: #E5E5E5;
+}
+.p2{
+    position: absolute;
+        width: 200px;
+        height: 110px;
+        left: 30px;
+        top: 17px;
+    
+        font-family: 'Lucida Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    
+        color: #000000;
+}
+#b2{
+    position: absolute;
+        width: 103px;
+        height: 35px;
+        left: 80px;
+        top: 130px;
+        font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+        
+            color: #000000;
+    
+        background: #FFFFFF;
+        border-radius: 20px;
+}
+.p3{
+position: absolute;
+    width: 222px;
+    height: 81px;
+    left: 183px;
+    top: 20px;
+
+    font-family: 'Lucida Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+#b3{
+    position: absolute;
+        width: 103px;
+        height: 35px;
+        left: 238px;
+        top: 130px;
+        font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+        
+            color: #000000;
+    
+        background: #FFFFFF;
+        border-radius: 20px;
+}
+h1{
+    position: absolute;
+        width: 225px;
+        height: 42px;
+        top: 700px;
+        left: 47px;
+    
+        font-family: 'Lucida Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #000000;
+}
+.container{
+    position: absolute;
+    display: flex;
+    top: 787px;
+    flex-wrap: wrap;
+}
+.container > *{
+    margin: 10px;
+}
+.product-img{
+    width: 145px;
+    height: 202px;
+    background: #EBF7FA;
+    border-radius: 20px;
+}
+.product-name{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 4px;
+        color: #000000;
+}
+.product-price{
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        margin: 4px;
+        color: #000000;
+}
+.c1{
+    position: absolute;
+    display: flex; 
+    top: 1136px;
+}
+.c2{
+    position: absolute;
+    display: flex;
+    top: 1507px;
+}
+#men-banner{
+position: absolute;
+    width: 1106px;
+    height: 270px;
+    left: 0px;
+    top: 1900px;
+
+    background: #C5F0FA;
+}
+.men-models{
+    position: relative;
+        width: 300.66px;
+        height: 265.89px;
+        left: 600.03px;
+        top: 01.87px;
+    
+        background: url(image.png);
+        transform: matrix(-1, -0.01, -0.01, 1, 0, 0);
+}
+#men-banner2{
+position: absolute;
+    width: 544px;
+    height: 251px;
+    left: 70px;
+    top: 2192px;
+
+    background: #D9FCE2;
+}
+#men-banner3{
+    position: absolute;
+        width: 544px;
+        height: 251px;
+        left: 70px;
+        top: 2465px;
+    
+        background: #EBD7FA;
+}
+.stylishman{
+    position: relative;
+        width: 188px;
+        height: 250px;
+        left: 300px;
+        top: 0px;
+    
+        background: url(image.png);
+}
+.presentable{
+    position: relative;
+        width: 136px;
+        height: 250px;
+        left: 309px;
+        top: 0px;
+    
+        background: url(image.png);
+}
+.manpjs{
+    position: relative;
+        width: 152px;
+        height: 337px;
+        left: 220px;
+        top: 80px;
+    
+        background: url(image.png);
+}
+#men-banner4{
+    position: absolute;
+        width: 403px;
+        height: 524px;
+        left: 643px;
+        top: 2192px;
+    
+        background: #FACDD9;
+}
+#p40{
+    position: absolute;
+        width: 337px;
+        height: 38px;
+        left: 95px;
+        top: 0px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+    
+        color: #000000;
+}
+#p41{
+    position: absolute;
+        width: 375px;
+        height: 86px;
+        left: 95px;
+        top: 60px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+    
+        color: #000000;
+}
+#b4{
+    position: absolute;
+        width: 157px;
+        height: 53px;
+        left: 176px;
+        top: 178px;
+    
+        background: #FFFFFF;
+        border-radius: 20px;
+
+            font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+        
+            color: #000000;
+}
+#p42{
+position: absolute;
+    width: 326px;
+    height: 38px;
+    left: 32px;
+    top: 20px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+#b5{
+    position: absolute;
+        width: 162px;
+        height: 48px;
+        left: 32px;
+        top: 152px;
+    
+        background: #FFFFFF;
+        border-radius: 20px;
+        font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 31px;
+            /* identical to box height */
+        
+        
+            color: #000000;
+}
+#p43{
+    position: absolute;
+        width: 331px;
+        height: 38px;
+        left: 31px;
+        top: 20px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+        /* identical to box height */
+    
+    
+        color: #000000;
+}
+#b6{
+    position: absolute;
+        width: 162px;
+        height: 48px;
+        left: 32px;
+        top: 152px;
+    
+        background: #FFFFFF;
+        border-radius: 20px;
+
+        font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 31px;
+        
+        
+            color: #000000;
+}
+#p44{
+    position: absolute;
+        width: 184px;
+        height: 33px;
+        left: 32px;
+        top: 180px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+    
+        color: #000000;
+}
+#b7{
+    position: absolute;
+        width: 162px;
+        height: 48px;
+        left: 32px;
+        top: 272px;
+    
+        background: #FFFFFF;
+        border-radius: 20px;
+
+        font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 31px;
+        
+            color: #000000;
+}
+#men{
+    position: absolute;
+        width: 147px;
+        height: 75px;
+        left: 99px;
+        top: 2785px;
+
+        background: #FFFFFF;
+}
+#p45{
+    position: absolute;
+        width: 147px;
+        height: 75px;
+        left: 10px;
+        top: -100px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        display: flex;
+        align-items: center;
+    
+        color: #000000;
+}
+#p46{
+    position: absolute;
+        width: 302px;
+        height: 103px;
+        left: -50px;
+        top: 10px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #000000;
+}
+#b8{
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 187px;
+        height: 74px;
+        left: 0px;
+        top: 150px;
+    
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        border-radius: 10px;
+
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+            
+            color: #000000;
+
+}
+.c4{
+    top: 2785px;
+    left: 358px;
+}
+.c5{
+    left: 31px;
+    top: 3126px;
+}
+#women{
+    position: absolute;
+    left: 47px;
+    top: 3489px;
+}
+.c6{
+left: 358px;
+    top: 3489px;
+}
+.c7{
+left: 31px;
+    top: 3830px;
+}
+#p47{
+position: absolute;
+    width: 260px;
+    height: 75px;
+    left: 7px;
+    top:-50px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+#p48{
+position: absolute;
+    width: 302px;
+    height: 103px;
+    left: -14px;
+    top: 54px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#b9{
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 187px;
+        height: 74px;
+        left: 39px;
+        top: 205px;
+    
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            
+            line-height: 29px;
+            color: #000000;
+}
+#kids{
+    position:absolute ;
+    left: 7px;
+    top: 4211px;
+}
+#p49{
+position: absolute;
+    width: 215px;
+    height: 75px;
+    left: 76px;
+    top:-50px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+#p50{
+    position: absolute;
+        width: 302px;
+        height: 103px;
+        left: 24px;
+        top: 54px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #000000;
+}
+#b10{
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 187px;
+        height: 74px;
+        left: 79px;
+        top: 205px;
+    
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        border-radius: 10px;
+
+        font-family: 'Lucida Bright';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+        
+            color: #000000;
+}
+.c8{
+    position: absolute;
+    left: 358px;
+    top: 4211px;
+
+}
+.c9{
+    position: absolute;
+    left: 31px;
+    top: 4552px;
+}
+.news-letter{
+    position: absolute;
+        width: 944px;
+        height: 340px;
+        left: 64px;
+        top: 4941px;
+    
+        background: #FFF3C9;
+}
+.news-letter-heading{
+    position: absolute;
+        width: 425px;
+        height: 47px;
+        left: 67px;
+        top: 88px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+    
+        color: #000000;
+}
+.news-letter-notification{
+    position: absolute;
+        width: 324px;
+        height: 141px;
+        left: 71px;
+        top: 135px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+    
+        color: #494848;
+}
+.Subscribe{
+    position: absolute;
+        width: 176px;
+        height: 58px;
+        left: 806px;
+        top: 5120px;
+    
+        background: #494848;
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #FFFFFF;
+}
+.email{
+    position: absolute;
+        width: 308px;
+        height: 53px;
+        left: 484px;
+        top: 5120px;
+        margin: 0%;
+    
+        background: #FFFFFF;
+    
+}
+.main-footer{
+    position: absolute;
+        width: 1106px;
+        height: 332px;
+        left: 0px;
+        top: 5385px;
+            overflow: hidden;
+    
+        background: #C6F5DE;
+        display: flex;
+        overflow: hidden;
+        
+}
+
+.logoname{
+    font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 69px;
+    
+        color: #000000;
+}
+.footer-cart{
+    width: 51px;
+        height: 50px;
+}
+.footer-logo{
+   align-items: center;
+   display: flex;
+   margin-left: 20px;
+}
+.info{
+    position: absolute;
+        width: 326px;
+        height: 161px;
+        left: 25px;
+        top: 82px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    
+        color: #949191;
+}
+.contact-us{
+    position: absolute;
+        width: 172px;
+        height: 38px;
+        left: 467px;
+        top: 48px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 38px;
+        
+        color: #000000;
+}
+.number{
+    position: absolute;
+        width: 437px;
+        height: 141px;
+        left: 467px;
+        top: 117px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    
+        color: #000000;
+}
+.waromaemail{
+    position: absolute;
+        width: 283px;
+        height: 35px;
+        left: 467px;
+        top: 177px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    
+        color: #000000;
+}
+.location{
+position: absolute;
+    width: 307px;
+    height: 102px;
+    left: 467px;
+    top: 236px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+.About{
+position: absolute;
+    width: 355px;
+    height: 93px;
+    left: 900px;
+    top: 48px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+.faq{
+position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 900px;
+    top: 117px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.support{
+    position: absolute;
+        width: 86px;
+        height: 26px;
+        left: 900px;
+        top: 177px;
+    
+        font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        
+    
+        color: #000000;
+}
+.pp{
+position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 900px;
+    top: 236px;
+
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+
+    color: #000000;
+}

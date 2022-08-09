@@ -1,0 +1,864 @@
+html,
+body {
+    height: 100%;
+}
+
+.mycontain {
+    min-height: 100%;
+}
+
+.main {
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+#sc1 {
+
+    width: 32px;
+    height: 30px;
+}
+.logo-name {
+    width: 143px;
+    height: 31px;
+
+    font-family: "Ink Free";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: black;
+}
+#user {
+    width: 22px;
+    height: 22px;
+}
+#sc2 {
+    width: 25px;
+    height: 21px;
+}
+.main-nav ul {
+    display:inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    position: relative;
+
+}
+.main-nav a {
+    color: #C4C4C4;
+    text-decoration: none;
+    padding: 1rem;
+    transition: 0.3s ease;
+    position: relative;
+}
+.main-nav a:hover,
+.main-nav a.active {
+    color: black;
+}
+.main-nav a.active::after,
+.main-nav a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    background: #C5F0FA;
+    bottom: 6px;
+    left: 20px;
+
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.cart {
+    display: flex;
+    align-items: center;
+}
+.banner1{ 
+    background-color: #C5F0FA;
+    display: flex;
+    justify-content: space-between;
+
+}
+.banner1>*{
+    margin: auto;
+}
+#models{
+    width: 250px;
+    height: 250px;
+}
+.braimg>*{
+    display: block;
+}
+#bra1 {
+    width: 82px;
+    height: 59px;
+}
+.mybutony{
+    display: flex;
+    justify-content: center;
+}
+.mybutony>*{
+    margin: 2%;
+}
+.adda{
+    width: 196px;
+        height: 56px;
+        left: 185px;
+        top: 412px;
+    
+        background: #C5F0FA;
+        border: 1px solid #000000;
+}.productsss {
+    text-decoration: none;
+}
+
+#bra2 {
+    width: 91px;
+    height: 75px;
+}
+
+#bra3 {
+    width: 97px;
+    height: 75px;
+}
+.p1{
+    width: 300px;
+    font-family: 'Lucida Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px; 
+    color: #000000;
+}
+#b1 {
+    width: 136px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.exp>*{
+    margin: 4%;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.mydivul{
+    background: #C5F0FA;
+    width: 100%;
+    display: none;
+}
+.myul li{
+    list-style: none;
+    margin: 5%;
+    padding: 4px;
+}
+.myul>*{
+    display: flex;
+    justify-content: center;
+}
+.myul a{
+    text-decoration: none;
+    font-family: 'Lucida Bright';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 31px;
+        color: black;
+    
+
+}
+.myul a:hover,a.active{
+    color: #C4C4C4;
+}
+.summerdress {
+    width: 118.66px;
+    height: 186.89px;
+}
+.banner2 {
+    width: 444px;
+    height: 205px;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.p2 {
+    width: 200px;
+    font-family: 'Lucida Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.banner2>*{
+    margin: auto;
+}
+.sum >*{
+    margin: 4%;
+}
+#b2 {
+    width: 103px;
+    height: 35px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.banner3 {
+    width: 444px;
+    height: 205px;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.banner3>*{
+    margin: auto;
+}
+.promdress {
+    width: 150px;
+    height: 203px;
+
+}
+.banners{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p3 {
+    width: 222px;
+    font-family: 'Lucida Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.h1{
+    margin-left: 2%;
+}
+.products{
+    width: 150px;
+    padding: 10px,12px;
+    background: #EBF7FA;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.products>*{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+.product-img {
+    width: 115px;
+    height: 172px;
+    border-radius: 20px;
+
+}
+.product-name {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 4px;
+    color: #000000;
+}
+.product-price {
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin: 4px;
+    color: #000000;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container>*{
+    margin: 1%;
+}
+#men-banner {
+    width: 100%;
+    background: #C5F0FA;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    overflow: hidden;
+
+}
+#men-banner>*{
+    margin:auto;
+}
+.men-models {
+    width: 300.66px;
+    height: 265.89px;
+}
+#p40 {
+    width: 337px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+#p41 {
+    width: 375px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+#b4 {
+    width: 157px;
+    height: 53px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+.mendiv>*{
+    margin: 4%;
+}
+#men-banner2 {
+    width: 544px;
+    background: #D9FCE2;
+    display: flex;
+}
+#men-banner2>*,#men-banner3>*{
+    margin: auto;
+}
+.stylishman {
+    width: 188px;
+    height: 250px;
+}
+#p42,#p43 {
+    width: 326px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+#b5,#b6 {
+    width: 162px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+}
+.mydivmen{
+    margin: auto;
+}
+.mydivmen>*{
+    margin: 5%;
+}
+#men-banner3 {
+    width: 544px;
+    background: #EBD7FA;
+    display: flex;
+    margin-top: 2%;
+}
+.presentable {
+    width: 136px;
+    height: 250px;
+}
+#men-banner4 {
+    margin-left: 2%;
+    display: flex;
+    width: 403px;
+    height: 524px;
+    background: #FACDD9;
+}
+#men-banner4>*{
+    margin: auto;
+}
+.manpjs {
+    width: 152px;
+    height: 337px;
+
+}
+.mybannercon{
+    display: flex;
+    justify-content:center;
+}
+#b7 {
+    width: 162px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+}
+#p44 {
+    width: 184px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+#men {
+    width: 147px;
+    background: #FFFFFF;
+    margin-right: 15%;
+}
+#men>*{
+    margin: 7%;
+}
+#p45 {
+    width: 147px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#p46 {
+    width: 302px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    align-items: center;
+
+    color: #000000;
+}
+#b8 {
+    box-sizing: border-box;
+    width: 187px;
+    height: 74px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+
+}
+.news-letter {
+    margin: auto;
+    width: 944px;
+    padding: 2%;
+    background: #FFF3C9;
+}
+.nwsl{
+    display: flex;
+    align-items: center;
+}
+.nwsl>*{
+    margin: 2%;
+}
+.news-letter-heading {
+    margin: auto;
+    width: 425px;
+    height: 47px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.news-letter-notification {
+    width: 324px;
+    height: 141px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #494848;
+}
+.email {
+    width: 308px;
+    height: 53px;
+    margin: 0%;
+    background: #FFFFFF;
+}
+.Subscribe {
+    width: 176px;
+    height: 58px;
+    background: #494848;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.inputz{
+    display: flex;
+}
+.inputz>*{
+    margin: 5px;
+}
+.main-footer {
+    overflow: hidden;
+    margin-top: 2%;
+    background: #C6F5DE;
+    display: flex;
+}
+.main-footer>*{
+    margin: 2%;
+}
+.logoname {
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+}
+
+.footer-cart {
+    width: 41px;
+    height: 40px;
+}
+
+.footer-logo {
+    align-items: center;
+    display: flex;
+}
+
+.info {
+    width: 326px;
+    height: 161px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #949191;
+}
+.contacts{
+    display: block;
+    
+}
+.contacts>*{
+    margin: 5%;
+}
+.contact-us {
+    width: 172px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+.number {
+    width: 437px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.waromaemail {
+    width: 283px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.location {
+    width: 307px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.About {
+    width: 355px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+}
+.faq {
+    width: 46px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.support {
+    width: 86px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.pp {
+    width: 186px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.about>*{
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .banner1{
+        width: 100%;
+        margin: auto;
+    }
+    #models{
+        width: 190px;
+        height: 190px;
+    }
+        .braimg{
+            display: none;
+        }
+        .p1{
+            width: 200px;
+            font-size: 18px;
+        }
+        #b1{
+            width: 103px;
+            height: 35px;
+            font-family: 'Lucida Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            color: #000000;
+            background: #FFFFFF;
+            border-radius: 20px;
+        }
+        .logo-name{
+            font-size: 20px;
+        }
+        .checkbtn{
+            display: block;
+        }
+        .main-nav ul{
+            display: none;
+        }
+        .myul{
+            background: #C5F0FA;
+        }
+        .mydivul.active{
+            display: contents;
+            background: #C5F0FA;
+            width: 100%;
+        }
+        .products{
+            width: 120px;
+        }
+        .products>*{
+            margin: 2px;
+        }
+        .product-img{
+            width: 85px;
+            height: 142px;
+        }
+        .product-name{
+            font-size: 14px;
+
+        }
+        .product-price{
+            font-size: 16px;
+
+        }
+        .men-models{
+            width: 200px;
+            height: 205px;
+           
+        }
+        #p40,#p43,#p42{
+            font-size: 20px;
+            width: 200px;
+        }
+        #p41{
+            font-size: 16px;
+            width: 210px;
+        }
+        #b4,#b5,#b6{
+            width: 103px;
+                height: 35px;
+                font-family: 'Lucida Sans';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 18px;
+                color: #000000;
+                background: #FFFFFF;
+                border-radius: 20px;
+        }
+        .mendiv{
+            margin-left: 10%;
+        }
+        .stylishman{
+            width: 118px;
+            height: 180px;
+        }
+        .presentable{
+            width: 86px;
+            height: 200px;
+        }
+        #men-banner2,#men-banner3{
+            width: 444px;
+        
+        }
+        #men-banner4{
+            display: none;
+        }
+        #p45{
+            font-size: 48px;
+
+        }
+        #p46{
+            font-size: 20px;
+            width: 200px;
+
+        }
+        #b8{
+            width: 157px;
+            height: 54px;
+
+        }
+        .news-letter {
+            width: 100%;
+            overflow: hidden;
+            margin: auto;
+        }
+        
+        .news-letter-heading {
+            font-size: 30px;
+        }
+        .nwsl{
+            display: block;
+        }
+        .email{
+            width: 250px;
+            height: 33px;
+        }
+        .Subscribe{
+            font-size: 15px;
+            width:118px ;
+            height: 38px;
+        }
+        .news-letter-notification{
+            font-size: 15px;
+        }
+        .logoname{
+            font-size: 18px;
+        }
+        .footer-cart{
+            width: 11px;
+            height: 10px;
+        }
+        .info{
+            font-size: 10px;
+            width: 150px;
+            line-height: 10px;
+        }
+        .contact-us,.About{
+            font-size: 12px;
+        }
+        .contacts>*{
+            margin: 4px;
+        }
+        .waromaemail,.contact-us,.number{
+            width: 70px;
+        }
+        .number,.waromaemail,.location,.faq,.about,.support,.pp{
+            font-size: 8px;
+        }
+        .location{
+            width: 100px;
+        }
+        .about>* {
+            margin-left: 6px;
+            margin-top: 4px;
+            margin-bottom:4px;
+        }
+        .main-footer{
+            height: 120px;
+            margin: auto;
+        }
+
+    
+}
+
